@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Works - Sofia Anne Garay</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="sample-works.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="assets/sag2.png" alt="My Logo">
+        </a>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About Me</a></li>
+            <li><a href="#sample-works" class="active">Sample Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sample Works Section -->
+    <section id="sample-works" class="sample-works">
+        <div class="works-container">
+            <div class="section-header">
+                <h1>My Sample Works</h1>
+                <p>A collection of projects and tasks I completed during my On-the-Job Training</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="network">Networking</button>
+                <button class="filter-btn" data-filter="content-creation">Content Creation</button>
+                <button class="filter-btn" data-filter="it-support">IT Support</button>
+                <button class="filter-btn" data-filter="video">Videos</button>
+          
+            </div>
+
+            <!-- Works Grid -->
+            <div class="works-grid">
+                
+                <!-- Project Card 1 - Image Example -->
+                <div class="work-card" data-category="network">
+                    <div class="work-image">
+                        <img src="assets/task8_network.jpg" alt="Project 1">
+                        <div class="work-overlay">
+                            <i class='bx bx-search-alt'></i>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Network Cabling Project</h3>
+                        <p>Installed and connected network cables to a patch panel for proper data distribution</p>
+                        <span class="work-tag">Networking</span>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 - Image Example -->
+                <div class="work-card" data-category="content-creation">
+                    <div class="work-image">
+                        <img src="assets/task4_posting.jpg" alt="Project 2">
+                        <div class="work-overlay">
+                            <i class='bx bx-search-alt'></i>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Social Media Content</h3> 
+                        <p>Created and edited posts for the company's social media platforms</p>
+                        <span class="work-tag">Content Creation</span>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 - Video Example -->
+                <div class="work-card" data-category="video">
+                    <div class="work-video">
+                        <video controls poster="assets/video-thumbnail.jpg">
+                            <source src="assets/VID1_TIME-LAPSE.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="work-info">
+                        <h3>CCTV Setup & OS Installation</h3>
+                        <p>Assisted in setting up CCTV systems and installing operating systems on multiple computers.</p>
+                        <span class="work-tag">Video</span>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 - Image Example -->
+                <div class="work-card" data-category="it-support">
+                    <div class="work-image">
+                        <img src="assets/task17_printer.jpg" alt="Project 3">
+                        <div class="work-overlay">
+                            <i class='bx bx-search-alt'></i>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Printer Maintenance & Repair</h3>
+                        <p>Performed hardware diagnostics and maintenance to resolve printer malfunctions.</p>
+                        <span class="work-tag">IT Support</span>
+                    </div>
+                </div>
+
+                <!-- Project Card 5 - Web Example -->
+                <div class="work-card" data-category="content-creation">
+                   <div class="work-image">
+                        <img src="assets/task2_edit.jpg" alt="Project 2">
+                        <div class="work-overlay">
+                            <i class='bx bx-search-alt'></i>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Social Media Content</h3> 
+                        <p>Created and edited posts for the company's social media platforms</p>
+                        <span class="work-tag">Content Creation</span>
+                    </div>
+                </div>
+
+                <!-- Project Card 6 - Video Example -->
+                <div class="work-card" data-category="video">
+                    <div class="work-video">
+                        <video controls poster="assets/video-thumbnail2.jpg">
+                            <source src="assets/VID2_TIME-LAPSE.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="work-info">
+                        <h3>ComLab Wiring & System Installation</h3>
+                        <p>Organized and cleaned computer lab wiring while installing the operating system and Microsoft Office Suite on each unit.</p>
+                        <span class="work-tag">Video</span>
+                    </div>
+                </div>
+
+                <div class="work-card" data-category="it-support">
+                    <div class="work-image">
+                        <img src="assets/task13_test.jpg" alt="Project 7">
+                        <div class="work-overlay">
+                            <i class='bx bx-search-alt'></i>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                       <h3>Hardware Functionality Check</h3>
+                        <p>Inspected and tested monitors, PCs, cables, and peripherals to verify proper operation.</p>
+                        <span class="work-tag">IT Support</span>
+                    </div>
+                </div>
+
+                    <div class="work-card" data-category="network">
+                        <div class="work-image">
+                            <img src="assets/task27_networking.png" alt="Project 8">
+                            <div class="work-overlay">
+                                <i class='bx bx-search-alt'></i>
+                            </div>
+                        </div>
+                        <div class="work-info">
+                            <h3>PC Network Cable Setup</h3>
+                            <p>Prepared LAN cables and plugged them into the computer for connection.</p>
+                            <span class="work-tag">Networking</span>
+                        </div>
+                    </div>
+
+                    <div class="work-card" data-category="video">
+                    <div class="work-video">
+                        <video controls poster="assets/video-thumbnail2.jpg">
+                            <source src="assets/VID3_TIME-LAPSE.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="work-info">
+                        <h3>Equipment Setup</h3>
+                        <p>Worked on assembling and preparing different equipment.</p>
+                        <span class="work-tag">Video</span>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Lightbox Modal for Image Preview -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img src="" alt="Preview" id="lightbox-img">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Sofia Anne Garay Portfolio. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
